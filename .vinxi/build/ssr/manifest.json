@@ -1,0 +1,87 @@
+{
+  "\u0000virtual:#vinxi/handler/ssr.css": {
+    "file": "assets/ssr-33c5cd1e.css",
+    "src": "\u0000virtual:#vinxi/handler/ssr.css"
+  },
+  "_components-19ca8cce.js": {
+    "file": "assets/components-19ca8cce.js",
+    "imports": [
+      "_routing-29e90f70.js"
+    ]
+  },
+  "_routing-29e90f70.js": {
+    "file": "assets/routing-29e90f70.js"
+  },
+  "src/routes/[...404].tsx?pick=default&pick=$css": {
+    "file": "_...404_.js",
+    "imports": [
+      "_components-19ca8cce.js",
+      "_routing-29e90f70.js"
+    ],
+    "isDynamicEntry": true,
+    "isEntry": true,
+    "src": "src/routes/[...404].tsx?pick=default&pick=$css"
+  },
+  "src/routes/[...loading].tsx?pick=default&pick=$css": {
+    "file": "_...loading_.js",
+    "isDynamicEntry": true,
+    "isEntry": true,
+    "src": "src/routes/[...loading].tsx?pick=default&pick=$css"
+  },
+  "src/routes/api/get-anime.ts?pick=GET": {
+    "file": "get-anime.js",
+    "isDynamicEntry": true,
+    "isEntry": true,
+    "src": "src/routes/api/get-anime.ts?pick=GET"
+  },
+  "src/routes/api/get-anime.ts?pick=POST": {
+    "file": "get-anime2.js",
+    "isDynamicEntry": true,
+    "isEntry": true,
+    "src": "src/routes/api/get-anime.ts?pick=POST"
+  },
+  "src/routes/index.tsx?pick=default&pick=$css": {
+    "file": "index.js",
+    "imports": [
+      "_components-19ca8cce.js",
+      "_routing-29e90f70.js"
+    ],
+    "isDynamicEntry": true,
+    "isEntry": true,
+    "src": "src/routes/index.tsx?pick=default&pick=$css"
+  },
+  "src/routes/recommendations.tsx?pick=default&pick=$css": {
+    "file": "recommendations.js",
+    "imports": [
+      "_routing-29e90f70.js"
+    ],
+    "isDynamicEntry": true,
+    "isEntry": true,
+    "src": "src/routes/recommendations.tsx?pick=default&pick=$css"
+  },
+  "virtual:#vinxi/handler/ssr": {
+    "css": [
+      "assets/ssr-33c5cd1e.css"
+    ],
+    "dynamicImports": [
+      "src/routes/index.tsx?pick=default&pick=$css",
+      "src/routes/index.tsx?pick=default&pick=$css",
+      "src/routes/recommendations.tsx?pick=default&pick=$css",
+      "src/routes/recommendations.tsx?pick=default&pick=$css",
+      "src/routes/[...404].tsx?pick=default&pick=$css",
+      "src/routes/[...404].tsx?pick=default&pick=$css",
+      "src/routes/[...loading].tsx?pick=default&pick=$css",
+      "src/routes/[...loading].tsx?pick=default&pick=$css",
+      "src/routes/api/get-anime.ts?pick=GET",
+      "src/routes/api/get-anime.ts?pick=GET",
+      "src/routes/api/get-anime.ts?pick=POST",
+      "src/routes/api/get-anime.ts?pick=POST"
+    ],
+    "file": "ssr.js",
+    "imports": [
+      "_routing-29e90f70.js"
+    ],
+    "isEntry": true,
+    "src": "virtual:#vinxi/handler/ssr"
+  }
+}

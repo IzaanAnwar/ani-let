@@ -1,0 +1,81 @@
+{
+  "\u0000virtual:#vinxi/handler/client.css": {
+    "file": "assets/client-33c5cd1e.css",
+    "src": "\u0000virtual:#vinxi/handler/client.css"
+  },
+  "_components-2f622ebf.js": {
+    "file": "assets/components-2f622ebf.js",
+    "imports": [
+      "_web-48384bd7.js",
+      "_routing-c4169500.js"
+    ]
+  },
+  "_routing-c4169500.js": {
+    "file": "assets/routing-c4169500.js",
+    "imports": [
+      "_web-48384bd7.js"
+    ]
+  },
+  "_web-48384bd7.js": {
+    "file": "assets/web-48384bd7.js"
+  },
+  "src/routes/[...404].tsx?pick=default&pick=$css": {
+    "file": "assets/_...404_-5c33d9b8.js",
+    "imports": [
+      "_web-48384bd7.js",
+      "_components-2f622ebf.js",
+      "_routing-c4169500.js"
+    ],
+    "isDynamicEntry": true,
+    "isEntry": true,
+    "src": "src/routes/[...404].tsx?pick=default&pick=$css"
+  },
+  "src/routes/[...loading].tsx?pick=default&pick=$css": {
+    "file": "assets/_...loading_-397637ad.js",
+    "imports": [
+      "_web-48384bd7.js"
+    ],
+    "isDynamicEntry": true,
+    "isEntry": true,
+    "src": "src/routes/[...loading].tsx?pick=default&pick=$css"
+  },
+  "src/routes/index.tsx?pick=default&pick=$css": {
+    "file": "assets/index-db0ab500.js",
+    "imports": [
+      "_web-48384bd7.js",
+      "_components-2f622ebf.js",
+      "_routing-c4169500.js"
+    ],
+    "isDynamicEntry": true,
+    "isEntry": true,
+    "src": "src/routes/index.tsx?pick=default&pick=$css"
+  },
+  "src/routes/recommendations.tsx?pick=default&pick=$css": {
+    "file": "assets/recommendations-9e07acf2.js",
+    "imports": [
+      "_web-48384bd7.js",
+      "_routing-c4169500.js"
+    ],
+    "isDynamicEntry": true,
+    "isEntry": true,
+    "src": "src/routes/recommendations.tsx?pick=default&pick=$css"
+  },
+  "virtual:#vinxi/handler/client": {
+    "css": [
+      "assets/client-33c5cd1e.css"
+    ],
+    "dynamicImports": [
+      "src/routes/index.tsx?pick=default&pick=$css",
+      "src/routes/recommendations.tsx?pick=default&pick=$css",
+      "src/routes/[...404].tsx?pick=default&pick=$css",
+      "src/routes/[...loading].tsx?pick=default&pick=$css"
+    ],
+    "file": "assets/client-22bf0dd4.js",
+    "imports": [
+      "_web-48384bd7.js",
+      "_routing-c4169500.js"
+    ],
+    "isEntry": true,
+    "src": "virtual:#vinxi/handler/client"
+  }
+}

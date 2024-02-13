@@ -1,0 +1,1 @@
+import{h as t,t as e}from"./web-48384bd7.js";const n=e('<main class="bg-zinc-800 text-center mx-auto text-gray-100 p-4 flex justify-center items-center py-16">Loading...');function r(){return t(n)}export{r as default};
